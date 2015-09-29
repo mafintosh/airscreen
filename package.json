@@ -1,0 +1,25 @@
+{
+  "name": "airscreen",
+  "version": "0.0.0",
+  "description": "Connect two screen sessions using airpaste",
+  "main": "index.js",
+  "dependencies": {
+    "airpaste": "^1.0.9",
+    "length-prefixed-message": "^3.0.3",
+    "pump": "^1.0.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "airscreen": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/airscreen.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/airscreen/issues"
+  },
+  "homepage": "https://github.com/mafintosh/airscreen"
+}
